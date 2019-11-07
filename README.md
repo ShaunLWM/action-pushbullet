@@ -1,6 +1,6 @@
 # Pushbullet Notifications for GitHub Actions
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.jpg)
 
 This action allows you to send yourself a push notification via [Pushbullet](https://www.pushbullet.com/).
 
