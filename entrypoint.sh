@@ -1,7 +1,7 @@
 #!/bin/sh
 
 curl \
---silent --output /dev/null \
+-i \
 -X POST \
 --header "Content-Type: application/json" \
 --header "Authorization: Bearer ${PB_TOKEN}" \
