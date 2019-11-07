@@ -51,4 +51,4 @@ You'll need to provide these environment variables to specify exactly what infor
 
 ## License
 
-MIT 2019
+GNU GENERAL PUBLIC LICENSE v3 2019
