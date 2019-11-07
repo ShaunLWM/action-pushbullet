@@ -1,13 +1,9 @@
-name: Pushbullet Notification
-on: [push]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - name: Pushbullet Notification
-      uses: ShaunLWM/action-pushbullet@master
-      env:
-        PB_TOKEN: ${{ secrets.PB_TOKEN }}
-        PB_TITLE: Build Complete
-        PB_TEXT: Your project has been built.
+name: "Pushbullet Notification"
+description: "A Github action to push Pushbullet notifications to your devices"
+author: "ShaunLWM"
+inputs:
+  PB_TOKEN:
+    description: "The Pushbullet API token"
+runs:
+  using: "docker"
+  image: "appropriate/curl:latest"
