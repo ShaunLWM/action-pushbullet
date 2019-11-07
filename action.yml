@@ -1,4 +1,7 @@
 name: "Pushbullet Notification"
+branding:
+  icon: "bell"
+  color: "red"
 description: "A Github action to push Pushbullet notifications to your devices"
 author: "ShaunLWM"
 inputs:
@@ -6,4 +9,4 @@ inputs:
     description: "The Pushbullet API token"
 runs:
   using: "docker"
-  image: "appropriate/curl:latest"
+  image: "Dockerfile"
