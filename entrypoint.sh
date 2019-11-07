@@ -6,5 +6,5 @@ curl \
 --header "Authorization: ${PB_TOKEN}" \
 --data-urlencode "type=note" \
 --data-urlencode "title=$PB_TITLE" \
---data-urlencode "text=$PB_TEXT" \
+--data-urlencode "body=$PB_TEXT" \
 "https://api.pushbullet.com/v2/pushes"
