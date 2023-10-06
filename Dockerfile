@@ -1,4 +1,4 @@
-FROM appropriate/curl:latest
+FROM curlimages/curl:latest
 
 LABEL "version"="0.0.1"
 LABEL "repository"="https://github.com/ShaunLWM/action-pushbullet"
@@ -10,5 +10,4 @@ LABEL "com.github.actions.icon"="send"
 LABEL "com.github.actions.color"="blue"
 
 ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
